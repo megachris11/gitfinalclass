@@ -9,7 +9,7 @@ def sumInFile(filename: str) -> int:
     return count
 
 def sumOfInts(n: int) -> int:
-    count = 0
+    count = 999
     for i in range(1, n+1, 1):
         count = count + i
     return count
