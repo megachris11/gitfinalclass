@@ -15,8 +15,8 @@ def sumOfInts(n: int) -> int:
     return count
 
 def main() -> None:
-    print(f"sumOfInts(9)  = {sumOfInts(9)} (expected: 45)")
-    print(f"sumOfInts(10) = {sumOfInts(10)} (expected: 55)")
+    print(f"sumOfInts(9)  = {sumOfInts(9)} (expected: 12345)")
+    print(f"sumOfInts(10) = {sumOfInts(10)} (expected: 12345)")
 
     # NOTE: if you try to run this in VS Code by pressing
     # the play button, your terminal's working directory must
@@ -24,7 +24,7 @@ def main() -> None:
     # get the following error:
     # FileNotFoundError: [Errno 2] No such file or directory: 'data.txt'
     filename = "data.txt"
-    print(f"sum of ints in {repr(filename)} = {sumInFile(filename)} (expected: 186)")
+    print(f"sum of ints in {repr(filename)} = {sumInFile(filename)} (expected: 12345)")
 
 #main()  # without the if below, this gets executed on import
 
