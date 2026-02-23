@@ -1,6 +1,6 @@
 def sumInFile(filename: str) -> int:
     infile = open(filename, "r")
-    count = 0
+    count = 10
     line = infile.readline()  # read first line
     while line != "":
         count = count + int(line)
