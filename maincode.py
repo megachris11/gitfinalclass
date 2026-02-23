@@ -1,5 +1,5 @@
 def sumInFile(filename: str) -> int:
-    print("Chris did this..")
+    print("Chris did this..Okay")
     infile = open(filename, "r")
     count = 0
     line = infile.readline()  # read first line
