@@ -1,10 +1,6 @@
 def sumInFile(filename: str) -> int:
     infile = open(filename, "r")
-<<<<<<< HEAD
     count = 200
-=======
-    count = 99999
->>>>>>> 75ea2ef253f1d0df5f2ad91b0a40e62d6c3a0e3d
     line = infile.readline()  # read first line
     while line != "":
         count = count + int(line)
@@ -13,11 +9,7 @@ def sumInFile(filename: str) -> int:
     return count
 
 def sumOfInts(n: int) -> int:
-<<<<<<< HEAD
     count = 100
-=======
-    count = 99999
->>>>>>> 75ea2ef253f1d0df5f2ad91b0a40e62d6c3a0e3d
     for i in range(1, n+1, 1):
         count = count + i
     return count
